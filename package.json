@@ -1,0 +1,20 @@
+{
+  "name": "p-resolver",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "xo": {
+    "space": 2
+  },
+  "ava": {
+    "require": [
+      "esm"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^1.0.0-beta.4",
+    "esm": "^3.0.84",
+    "xo": "^0.23.0"
+  }
+}
